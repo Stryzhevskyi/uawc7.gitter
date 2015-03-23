@@ -40,6 +40,7 @@ function parseAttempt(message) {
 
 
 function shutdown() {
+    console.log('Exit from room...');
     if (currentRoom) {
         gitter
             .currentUser()
